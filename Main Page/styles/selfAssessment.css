@@ -1,0 +1,17 @@
+.selfAssessment {
+    padding: 1rem 0;
+    text-align: left;
+  }
+  
+  .selfAssessment h1 {
+    font-weight: 100;
+    font-size: 20px;
+    text-transform: uppercase;
+  }
+  
+  .selfAssessment p {
+    padding: 1rem 0;
+    font-size: 15px;
+    color: rgb(97, 95, 95);
+    line-height: 2;
+  }
