@@ -2,46 +2,56 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Kyle Rose Portfolio</title>
-  <link rel="stylesheet" href="./Portfolio/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <nav id="navbar">
-    <ul>
-      <li><a href="#welcome-section">About</a></li>
-      <li><a href="#projects">Work</a></li>
-      <li><a href="#contact">Contact</a></li>
-    </ul>
-  </nav>
 
-  <section id="welcome-section">
-    <h1>Hey I am Kyle Rose</h1>
-    <p>A Web Developer</p>
-    <a href="https://github.com/Kyle-Rose" id="profile-link" class="fab fa-github" target="_blank"> My GitHub</a>
+  <header>
+    <h1>Kyle Rose</h1>
+    <p>Full-Stack Developer | HTML, CSS, JavaScript, Node.js, PostgreSQL</p>
+    <a href="https://github.com/Kyle-Rose">GitHub</a>
+    <a href="Resume - Software Engineer.pdf" target="_blank">Resume</a>
+  </header>
+
+  <section>
+    <h2>About</h2>
+    <p>CS graduate focused on building full-stack web applications using JavaScript and modern web technologies.</p>
   </section>
 
-  <section id="projects">
-    <h1>Certificates</h1>
-    <h2>Click on a certifcate below to see the work I completed for each...</h2>
-    <div class="projects-grid">
-      <a class="project-tile" href="./Portfolio/responsiveWebDesign.html">
-        <img src="./Portfolio/responsiveWebDesign.webp" alt="Survey Form">
-        <p>Responsive Web Design</p>
-      </a>
+  <section>
+    <h2>Projects</h2>
 
-      <a class="project-tile" href="./Portfolio/JavaScriptAlgorithmsAndDataStructures.html">
-        <img src="./Portfolio/JavaScriptAlgorithmsAndDataStructures.jpg" alt="Survey Form">
-        <p>Java Script Algorithms And Data Structures</p>
-      </a>
-     
+    <div class="project">
+      <h3>Task Manager App | Node.js, Express, PostgreSQL, JavaScript</h3>
+      <p>Full-stack task management application with authentication, CRUD operations, and PostgreSQL database integration.</p>
+      <img src="Task Manager.png" alt="Task Manager App Screenshot">
+      <a href="https://full-task-manager-app-2fxd.onrender.com/">Live</a>
+      <a href="https://github.com/Kyle-Rose/Full-Task-Manager-App">GitHub</a>
     </div>
+
+    <div class="project">
+    <h3>GitHub User Search App | HTML, CSS, JavaScript, GitHub REST API</h3>
+    <p>Web app that fetches and displays GitHub user data using REST API and asynchronous JavaScript.</p>
+    <img src="GitHub Search.png" alt="GitHub User Search App Screenshot">
+    <a href="https://github-search-three-beta.vercel.app/">Live</a>
+    <a href="https://github.com/Kyle-Rose/Github-User-Search">GitHub</a>
+    </div>
+
+    <div class="project">
+      <h3>Interactive Background App | HTML, CSS, JavaScript (DOM Manipulation)</h3>
+      <p>Simple app demonstrating DOM manipulation and UI interaction.</p>
+      <img src="Interactive Background.png" alt="Interactive Background App Screenshot">
+      <a href="https://interactive-background-app.vercel.app/">Live</a>
+      <a href="https://github.com/Kyle-Rose/InteractiveBackgroundApp">GitHub</a>
+    </div>
+
   </section>
 
-  <section id="contact">
-    <h2>Contact Me</h2>
-    <p>You can reach me at <a href="mailto:kylerose266@gmail.com">kylerose266@gmail.com</a>.</p>
+  <section>
+    <h2>Contact</h2>
+    <p>Email: kylerose266@gmail.com</p>
   </section>
+
 </body>
 </html>
